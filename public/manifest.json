@@ -17,7 +17,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://ct.ritsumei.ac.jp//*"],
+      "matches": ["https://ct.ritsumei.ac.jp/*"],
       "run_at": "document_start",
       "js": ["contentScript.js"]
     }
